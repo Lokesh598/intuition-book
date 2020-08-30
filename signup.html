@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+    </style>
+
+      <!-- Custom styles for this template -->
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+
+      <!-- Custom styles for this template -->
+      <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+      <div class="container">
+        <header class="blog-header py-3">
+          <div class="row flex-nowrap justify-content-between align-items-center">            
+            <div class="col-12 text-center">
+              <a class="blog-header-logo text-dark" href="#">Intuition</a>
+            </div>            
+          </div>
+        </header>
+     
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4">                   
+                    <form class="form-container">
+                        <fieldset>
+                            <h4 class="col-12 text-center">signup</h4>
+                            <div class="form-group">
+                              <label for="InputFirstName">First Name</label>
+                              <input type="firstname" class="form-control" id="Inputfirstname" aria-describeby="firstname" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                              <label for="InputLastName">Last Name</label>
+                              <input type="lastname" class="form-control" id="Inputlastname" aria-describeby="lastname" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">                                
+                                <label for="InputEmail">Email Address</label>
+                                <input type="email" class="form-control" id="InputEmail1" aria-describeby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="InputPassword1">Password</label>
+                                <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+                            </div>
+                            <button type="submit" class="col-sm-4 btn btn-outline-primary btn-block">Submit</button>
+                            <div class="form-footer">
+                             <!--   <p> Don't have an account? <a href="#">Sign Up</a></p>-->
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>

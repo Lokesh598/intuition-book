@@ -1,0 +1,226 @@
+/* stylelint-disable selector-list-comma-newline-after */
+body{
+  background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.bg-cover {
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  }
+  
+  .blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    .display-4 {
+      font-size: 3rem;
+    }
+  }
+  
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .nav-scroller .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+  }
+  
+  .card-img-right {
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .flex-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  /*jumbotron background
+  ------------------------------------------------*/
+
+
+  /* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-8 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+ 
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-8 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 2.5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+aside {
+  float: right;
+  padding: 70px 0 30px;
+  position: relative;
+  width: 25%
+}
+
+  aside h2 {
+      color: #888;
+      font-size: 1.8em
+  }
+  aside .tag-cloud {
+      padding: 15px 35px 10px 0;
+      text-align: center
+  }
+      aside .tag-cloud li {
+          display: inline
+      }
+      aside .tag-cloud a {
+          color: #69a
+      }
+      aside .tag-cloud a:hover {
+          color: #a67
+      }
+      aside .tag-cloud .w1 {
+          font-size: .8em
+      }
+      aside .tag-cloud .w2 {
+          font-size: 1em
+      }
+      aside .tag-cloud .w3 {
+          font-size: 1.1em
+      }
+      aside .tag-cloud .w4 {
+          font-size: 1.2em
+      }
+      aside .tag-cloud .w5 {
+          font-size: 1.3em
+      }
+      aside .tag-cloud .w6 {
+          font-size: 1.4em
+      }
+      aside .tag-cloud .w7 {
+          font-size: 1.5em
+      }
+      aside .tag-cloud .w8 {
+          font-size: 1.6em
+      }
+      aside .tag-cloud .w9 {
+          font-size: 1.8em
+      }
+      aside .tag-cloud .w10 {
+          font-size: 2em
+      }
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+ 
+  
+  .h-250 { height: 250px; }
+  @media (min-width: 768px) {
+    .h-md-250 { height: 250px; }
+  }
+  
+  /* Pagination */
+  .blog-pagination {
+    margin-bottom: 4rem;
+  }
+  .blog-pagination > .btn {
+    border-radius: 2rem;
+  }
+  
+  /*
+   * Blog posts
+   */
+  .blog-post {
+    margin-bottom: 4rem;
+  }
+  .blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+  }
+  .blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+  }
+  
+  /*
+   * Footer
+   */
+  .blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+  

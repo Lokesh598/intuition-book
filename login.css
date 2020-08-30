@@ -1,0 +1,36 @@
+/* Sign up */
+
+
+body{
+    background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  }
+
+  .blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #8e9eab;
+    
+   
+  }
+  
+  .blog-header-logo{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+
+  .form-group h4{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+    color: #0084ff;
+  }
+
+  .container-fluid{
+      margin-top: 50px;
+  }
